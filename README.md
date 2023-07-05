@@ -1,0 +1,3 @@
+# What does this app do?
+
+Imagine having a robust web security application powered by Python that goes beyond traditional security measures. This programme detects and notify shop owners or residents whenever someone enters their premises. Whether you're a shop owner or a homeowner, this versatile tool ensures that you stay informed and in control of your security at all times. With its advanced features and email alert system, you can have peace of mind knowing that your property is protected and monitored with the utmost vigilance.
