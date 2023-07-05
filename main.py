@@ -2,16 +2,15 @@ import cv2
 import time
 
 video = cv2.VideoCapture(0)
+time.sleep(1)  # This gives the video time to load
 
-check1, frame1 = video.read()
-time.sleep(1)  # Adding timer
+while True:
+    check, frame = video.read()
+    cv2.imshow("My videos", frame)  # Showing the video
 
+    key = cv2.waitKey(1)
 
-check2, frame2 = video.read()
-time.sleep(1)
+    if key == ord("q"):
+        break
 
-check3, frame3 = video.read()
-time.sleep(1)
-
-
-print(frame3)
+video.release()
